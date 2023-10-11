@@ -1,0 +1,18 @@
+@media (max-width: 320px){
+    .main-instructora{
+        .seccionPortada{
+            height: auto;
+            img{
+                height: 16rem;
+            }
+        }
+        .seccionInstructora{
+            height: auto;
+            .container{
+                img{
+                    width: 240px;
+                }
+            }
+        }
+    }
+}

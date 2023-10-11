@@ -1,0 +1,37 @@
+@media (max-width: 1024px){
+    header{
+        justify-content: center;
+        .logo{
+            img{
+                width: 4.375rem;  
+                height: 4.375rem;
+            }
+        }
+        .navbar{
+        gap: .9375rem;
+            div{
+                div{
+                    ul{
+                        li{
+                            height: 1.875rem;
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .ubicacion{
+            font-size: 14px;
+        }
+        .title{
+            font-size: 14px;
+        }
+        .contacto{
+            font-size: 14px;
+        }
+    }
+}

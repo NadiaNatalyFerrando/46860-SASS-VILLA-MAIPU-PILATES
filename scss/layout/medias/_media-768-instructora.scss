@@ -1,0 +1,61 @@
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .logo{
+            img{
+                width: 4.0625rem;  
+                height: 4.0625rem;
+                margin: .3125rem .3125rem;
+            }
+        }
+        .navbar{
+        gap: .625rem;
+            div{
+                div{
+                    ul{
+                        li{
+                            width: 8.75rem;
+                            height: 1.25rem;
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main-instructora{
+        .seccionPortada{
+            height: auto;
+            img{
+                height: 25rem;
+            }
+        }
+        .seccionInstructora{
+            height: auto;
+            .container{
+                img{
+                    width: 500px;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+    }
+    footer{
+        .ubicacion{
+            font-size: 12px;
+        }
+        .title{
+            font-size: 12px;
+        }
+        .contacto{
+            font-size: 12px;
+        }
+    }
+}

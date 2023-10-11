@@ -1,0 +1,73 @@
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .logo{
+            img{
+                width: 4.0625rem;  
+                height: 4.0625rem;
+                margin: .3125rem .3125rem;
+            }
+        }
+        .navbar{
+        gap: .625rem;
+            div{
+                div{
+                    ul{
+                        li{
+                            width: 8.75rem;
+                            height: 1.25rem;
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main-pf{
+        .bannerPreguntas{
+            height: 25rem;
+            h1{
+                font-size: 4.375rem;
+                font-weight: 700;
+                height: 25rem;
+                line-height: 5.625rem;
+            }
+        }
+        .seccionPreguntas{
+            height: 55rem;
+            details{
+                width: 100%;
+                margin: 0px;
+                padding: 5px;
+                img{
+                    width: 28px;
+                }
+                summary{
+                    h2{
+                        font-size: 1.5rem;
+                        line-height: 1.5rem;
+                    }
+                    p{
+                        font-size: 1.25rem;
+                        line-height: 1.375rem;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .ubicacion{
+            font-size: 12px;
+        }
+        .title{
+            font-size: 12px;
+        }
+        .contacto{
+            font-size: 12px;
+        }
+    }
+}

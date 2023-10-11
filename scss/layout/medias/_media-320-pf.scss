@@ -1,0 +1,31 @@
+@media (max-width: 320px){
+    .main-pf{
+        .bannerPreguntas h1{
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+        .seccionPreguntas{
+            height: 105rem;
+            details{
+                width: 100%;
+                margin: 0px;
+                padding: 5px;
+                img{
+                    width: 28px;
+                }
+                summary{
+                    h2{
+                        font-size: 1.5rem;
+                        letter-spacing: .156rem;
+                        word-spacing: .156rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                        letter-spacing: .156rem;
+                        word-spacing: .156rem;
+                    }
+                }
+            }
+        }
+    }
+}
